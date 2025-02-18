@@ -1,0 +1,44 @@
+{% extends 'deliverables_base.html' %}
+
+{% block deliverablesImage %}
+<img src="{{ url_for('static', filename='image/works/chanzuhon.webp') }}" alt="チャン・ズホン｜ちゃん・ずほん｜ChanZuhon｜chanzuhon｜チャンさん｜chansan｜ファンサイト｜FanSite">
+{% endblock %}
+
+{% block deliverablesTitle %}
+<h2 class="deliverablesTitle">ChanZuhon</h2>
+{% endblock %}
+
+{% block deliverablesTag %}
+<p>自主制作</p>
+<p>ファンサイト</p>
+{% endblock %}
+
+{% block overviewBlockScope %}
+<p>SiteDesign</p>
+<p>GraphicDesign</p>
+<p>Coding</p>
+{% endblock %}
+
+{% block overviewBlockClient %}
+<p>-</p>
+{% endblock %}
+
+{% block overviewBlockSite %}
+<a href="https://ChanZuhon.f5.si/" target="_blank">https://ChanZuhon.f5.si/</a>
+{% endblock %}
+
+{% block overviewBlockTechnology %}
+<p>Figma</p>
+<p>html</p>
+<p>css</p>
+<p>javascript</p>
+{% endblock %}
+
+{% block explanation %}
+<p>
+    自身が好きなYouTuberさんである「東海オンエア」さんのマネージャー（バディ）さんをより多くの方に知って頂けるよう、プロフィール等をまとめ、見やすいシングルページデザインのサイトを目指し、作成いたしました。<br>
+    シングルページサイトのため、ルーティング設定を要しないため、作成速度を上げるため、html, css, javascriptの基本的なもののみで素早く仕上げました。
+    SNS-X（旧Twitter）をサイト内で閲覧できるように行い投稿される最新の情報を素早く確認できるようにいたしました。
+    他にも、自身が見つけられた、出演している動画をまとめ、スライドで表示し、モーダルウィンドウで閲覧することができるように工夫いたしました。
+</p>
+{% endblock %}
